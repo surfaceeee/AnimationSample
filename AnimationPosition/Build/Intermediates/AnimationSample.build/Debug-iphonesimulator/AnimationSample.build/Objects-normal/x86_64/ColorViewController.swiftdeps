@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample19ColorViewController", ""]
 provides-dynamic-lookup:
-- "backgroundView"
-- "viewDidAppear"
-- "label"
 - "didReceiveMemoryWarning"
+- "label"
 - "viewDidLoad"
+- "viewDidAppear"
+- "backgroundView"
 depends-top-level:
-- !private "UIColor"
-- "UILabel"
-- "UIViewController"
 - "Bool"
-- "ColorViewController"
 - !private "Void"
 - "UIView"
+- !private "UIColor"
+- "ColorViewController"
+- "UIViewController"
+- "UILabel"
 depends-member:
 - !private ["PSs9AnyObject", "UIColor"]
 - !private ["PSs9AnyObject", "UIView"]

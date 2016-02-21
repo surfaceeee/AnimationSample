@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample19ScaleViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "viewDidAppear"
-- "viewDidLoad"
 - "redSquare"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "Void"
+- !private "CGAffineTransformMakeScale"
 - "ScaleViewController"
+- !private "Void"
+- "UIView"
 - "Bool"
 - "UIViewController"
-- !private "CGAffineTransformMakeScale"
-- "UIView"
 depends-member:
 - !private ["PSs9AnyObject", "CGAffineTransformMakeScale"]
 - !private ["PSs9AnyObject", "UIView"]

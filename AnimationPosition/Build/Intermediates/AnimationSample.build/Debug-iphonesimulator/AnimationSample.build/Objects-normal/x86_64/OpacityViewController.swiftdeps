@@ -6,16 +6,16 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample21OpacityViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
 - "viewDidAppear"
 - "blueSquare"
+- "viewDidLoad"
 depends-top-level:
-- "UIViewController"
+- !private "Void"
 - "OpacityViewController"
 - "Bool"
 - "UIView"
-- !private "Void"
+- "UIViewController"
 depends-member:
 - !private ["PSs9AnyObject", "UIView"]
 - !private ["PSs9AnyObject", "alpha"]

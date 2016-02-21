@@ -1,15 +1,15 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "f3e7d2d973d0acc8df57eba1397e7edf"
-build_time: [509382131, 1474000]
+options: "dd7ba3faaf5ccd4d87d9a3f31df735ef"
+build_time: [509382412, 167271000]
 inputs:
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/ViewController.swift": [504433046, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/RepeatViewController.swift": [507565242, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/LoginViewController.swift": [509381548, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/RotationViewController.swift": [507561566, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/PositionViewController.swift": [504437255, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/EasingViewController.swift": [507652256, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/SpringViewController.swift": [507655810, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/ScaleViewController.swift": [504438260, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/OpacityViewController.swift": [504437435, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/ColorViewController.swift": [504438659, 0]
-  "/Users/mc110/\u767E\u5EA6\u4E91\u540C\u6B65\u76D8/Mooc/Animation/AnimationPosition/AnimationPosition/AppDelegate.swift": [504433046, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/SpringViewController.swift": [507655810, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/ColorViewController.swift": [504438659, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/PositionViewController.swift": [504437255, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/OpacityViewController.swift": [504437435, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/RotationViewController.swift": [507561566, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/EasingViewController.swift": [507652256, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/ViewController.swift": [504433046, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/LoginViewController.swift": [509381548, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/AppDelegate.swift": [504433046, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/ScaleViewController.swift": [504438260, 0]
+  "/Users/mc110/Documents/Git/Demo/AnimationPosition/AnimationPosition/RepeatViewController.swift": [507565242, 0]

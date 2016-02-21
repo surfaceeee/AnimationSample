@@ -10,14 +10,14 @@ provides-dynamic-lookup:
 - "greenSquare"
 - "viewDidLoad"
 - "redSquare"
-- "blueSquare"
 - "viewDidAppear"
+- "blueSquare"
 depends-top-level:
 - "Bool"
+- !private "Array"
 - !private "Void"
 - "UIView"
 - "SpringViewController"
-- !private "Array"
 - "UIViewController"
 - !private "-"
 depends-member:
