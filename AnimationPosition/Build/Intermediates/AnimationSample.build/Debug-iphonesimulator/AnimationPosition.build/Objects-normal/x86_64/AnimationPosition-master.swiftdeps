@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "6a1fba81f5cf5411da4caa819cf11606"
+build_time: [504436085, 951245000]
+inputs:
+  "/Users/mc110/Desktop/AnimationPosition/AnimationPosition/ViewController.swift": [504433046, 0]
+  "/Users/mc110/Desktop/AnimationPosition/AnimationPosition/AppDelegate.swift": [504433046, 0]
+  "/Users/mc110/Desktop/AnimationPosition/AnimationPosition/PositionViewController.swift": [504435750, 0]
