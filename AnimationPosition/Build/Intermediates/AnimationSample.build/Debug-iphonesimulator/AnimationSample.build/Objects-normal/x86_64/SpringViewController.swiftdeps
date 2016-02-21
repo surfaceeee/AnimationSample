@@ -8,16 +8,16 @@ provides-member:
 provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
 - "greenSquare"
-- "redSquare"
 - "viewDidLoad"
+- "redSquare"
 - "blueSquare"
 - "viewDidAppear"
 depends-top-level:
 - "Bool"
-- "SpringViewController"
-- !private "Array"
 - !private "Void"
 - "UIView"
+- "SpringViewController"
+- !private "Array"
 - "UIViewController"
 - !private "-"
 depends-member:

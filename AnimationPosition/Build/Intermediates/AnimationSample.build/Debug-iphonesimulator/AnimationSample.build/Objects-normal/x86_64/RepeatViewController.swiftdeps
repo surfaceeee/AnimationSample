@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample20RepeatViewController", ""]
 provides-dynamic-lookup:
-- "greenSquare"
 - "viewDidAppear"
-- "didReceiveMemoryWarning"
+- "greenSquare"
 - "blueSquare"
-- "redSquare"
 - "viewDidLoad"
+- "redSquare"
+- "didReceiveMemoryWarning"
 depends-top-level:
 - !private "-"
 - !private "Array"
 - "UIViewController"
-- "Bool"
 - !private "Void"
 - "UIView"
+- "Bool"
 - "RepeatViewController"
 depends-member:
 - !private ["PSs9AnyObject", "UIView"]
