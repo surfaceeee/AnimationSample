@@ -25,6 +25,7 @@ class LoginViewController: UIViewController {
     //Custome
     let spinner = UIActivityIndicatorView(activityIndicatorStyle: .WhiteLarge)
     var loginPostion = CGPoint.zero
+    let waringMessage = UIImageView(image: UIImage(named: "Warning"))
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +59,10 @@ class LoginViewController: UIViewController {
         
         self.loginPostion = self.login.center;
         self.login.center.x -= self.view.bounds.width
+        
+        self.view.addSubview(self.waringMessage)
+        self.waringMessage.hidden = true
+        self.waringMessage.center = self.loginPostion
     }
 
     override func didReceiveMemoryWarning() {
@@ -125,7 +130,13 @@ class LoginViewController: UIViewController {
         self.spinner.frame.origin = CGPointMake(12, 12)
         self.spinner.startAnimating()
         
-        self.login.center = self.loginPostion
+        UIView.transitionWithView(self.waringMessage, duration: 0.3, options: .TransitionFlipFromBottom, animations: { () -> Void in
+            self.waringMessage.hidden = true
+            }, completion: nil)
+        
+        UIView.animateWithDuration(0.3) { () -> Void in
+            self.login.center = self.loginPostion
+        }
         self.login.center.x -= 20
         UIView.animateWithDuration(1.5, delay: 0, usingSpringWithDamping: 0.1, initialSpringVelocity: 0, options: [], animations: { () -> Void in
                 self.login.center.x += 20
@@ -133,6 +144,12 @@ class LoginViewController: UIViewController {
                 UIView.animateWithDuration(0.3, animations: { () -> Void in
                     self.login.center.y += 80
                     self.spinner.removeFromSuperview()
+                    },completion: { _ in
+                        UIView.transitionWithView(self.waringMessage, duration: 0.3, options: [.TransitionFlipFromTop, .CurveEaseOut], animations: { () -> Void in
+                            self.waringMessage.hidden = false
+                            }, completion: { _ in
+                                
+                        })
                 })
         }
     }

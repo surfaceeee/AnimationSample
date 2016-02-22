@@ -6,52 +6,54 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample19LoginViewController", ""]
 provides-dynamic-lookup:
-- "password"
-- "logo"
-- "bubble3"
-- "viewDidAppear"
-- "username"
 - "loginTapped"
+- "logo"
+- "password"
+- "viewDidAppear"
 - "spinner"
-- "viewDidLoad"
-- "bubble2"
-- "bubble5"
-- "didReceiveMemoryWarning"
-- "bubble4"
+- "username"
+- "bubble3"
+- "waringMessage"
 - "bubble1"
-- "login"
-- "dot"
+- "bubble4"
+- "viewDidLoad"
+- "bubble5"
 - "loginPostion"
+- "bubble2"
+- "dot"
+- "didReceiveMemoryWarning"
+- "login"
 depends-top-level:
-- "AnyObject"
-- !private "-="
-- !private "CGPointMake"
 - !private "print"
-- !private "Void"
-- !private "CGRectMake"
-- !private "+="
-- "UIImageView"
 - "LoginViewController"
 - !private "Array"
-- !private "UIImage"
-- "UIActivityIndicatorView"
+- !private "-="
+- !private "CGRectMake"
+- !private "+="
+- "StringLiteralType"
 - "UITextField"
-- !private "UIView"
+- "UIActivityIndicatorView"
+- "UIImage"
+- !private "CGPointMake"
 - "UIButton"
-- "UIViewController"
-- "CGPoint"
-- "Bool"
+- "UIImageView"
 - !private "CGAffineTransformMakeScale"
-- !private "StringLiteralType"
+- !private "Void"
+- !private "UIView"
 - !private "/"
+- !private "BooleanLiteralType"
+- "CGPoint"
+- "UIViewController"
+- "AnyObject"
+- "Bool"
 depends-member:
 - !private ["PSs9AnyObject", "CGAffineTransformMakeScale"]
 - ["PSs9AnyObject", "CGPoint"]
 - !private ["PSs9AnyObject", "CGPointMake"]
 - !private ["PSs9AnyObject", "CGRectMake"]
 - ["PSs9AnyObject", "UIActivityIndicatorView"]
-- !private ["PSs9AnyObject", "UIImage"]
-- !private ["PSs9AnyObject", "UIImageView"]
+- ["PSs9AnyObject", "UIImage"]
+- ["PSs9AnyObject", "UIImageView"]
 - !private ["PSs9AnyObject", "UIView"]
 - !private ["PSs9AnyObject", "addSubview"]
 - !private ["PSs9AnyObject", "animateWithDuration"]
@@ -65,6 +67,7 @@ depends-member:
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "dot"]
 - !private ["PSs9AnyObject", "frame"]
+- !private ["PSs9AnyObject", "hidden"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "leftView"]
 - !private ["PSs9AnyObject", "leftViewMode"]
@@ -78,13 +81,18 @@ depends-member:
 - ["PSs9AnyObject", "spinner"]
 - !private ["PSs9AnyObject", "startAnimating"]
 - !private ["PSs9AnyObject", "transform"]
+- !private ["PSs9AnyObject", "transitionWithView"]
 - ["PSs9AnyObject", "username"]
 - !private ["PSs9AnyObject", "view"]
 - ["PSs9AnyObject", "viewDidAppear"]
 - ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "waringMessage"]
 - ["PSs9AnyObject", ""]
 - !private ["PSs23ArrayLiteralConvertible", "CurveEaseInOut"]
+- !private ["PSs23ArrayLiteralConvertible", "CurveEaseOut"]
 - !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "TransitionFlipFromBottom"]
+- !private ["PSs23ArrayLiteralConvertible", "TransitionFlipFromTop"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
@@ -100,8 +108,8 @@ depends-member:
 - !private ["PSs11CVarArgType", "CGPointMake"]
 - !private ["PSs11CVarArgType", "CGRectMake"]
 - ["PSs11CVarArgType", "UIActivityIndicatorView"]
-- !private ["PSs11CVarArgType", "UIImage"]
-- !private ["PSs11CVarArgType", "UIImageView"]
+- ["PSs11CVarArgType", "UIImage"]
+- ["PSs11CVarArgType", "UIImageView"]
 - !private ["PSs11CVarArgType", "UIView"]
 - !private ["PSs11CVarArgType", "addSubview"]
 - !private ["PSs11CVarArgType", "animateWithDuration"]
@@ -115,6 +123,7 @@ depends-member:
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
 - ["PSs11CVarArgType", "dot"]
 - !private ["PSs11CVarArgType", "frame"]
+- !private ["PSs11CVarArgType", "hidden"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "leftView"]
 - !private ["PSs11CVarArgType", "leftViewMode"]
@@ -128,18 +137,20 @@ depends-member:
 - ["PSs11CVarArgType", "spinner"]
 - !private ["PSs11CVarArgType", "startAnimating"]
 - !private ["PSs11CVarArgType", "transform"]
+- !private ["PSs11CVarArgType", "transitionWithView"]
 - ["PSs11CVarArgType", "username"]
 - !private ["PSs11CVarArgType", "view"]
 - ["PSs11CVarArgType", "viewDidAppear"]
 - ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "waringMessage"]
 - ["PSs11CVarArgType", ""]
 - !private ["PSs23CustomStringConvertible", "CGAffineTransformMakeScale"]
 - ["PSs23CustomStringConvertible", "CGPoint"]
 - !private ["PSs23CustomStringConvertible", "CGPointMake"]
 - !private ["PSs23CustomStringConvertible", "CGRectMake"]
 - ["PSs23CustomStringConvertible", "UIActivityIndicatorView"]
-- !private ["PSs23CustomStringConvertible", "UIImage"]
-- !private ["PSs23CustomStringConvertible", "UIImageView"]
+- ["PSs23CustomStringConvertible", "UIImage"]
+- ["PSs23CustomStringConvertible", "UIImageView"]
 - !private ["PSs23CustomStringConvertible", "UIView"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs23CustomStringConvertible", "addSubview"]
@@ -154,6 +165,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["PSs23CustomStringConvertible", "dot"]
 - !private ["PSs23CustomStringConvertible", "frame"]
+- !private ["PSs23CustomStringConvertible", "hidden"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "leftView"]
 - !private ["PSs23CustomStringConvertible", "leftViewMode"]
@@ -167,10 +179,12 @@ depends-member:
 - ["PSs23CustomStringConvertible", "spinner"]
 - !private ["PSs23CustomStringConvertible", "startAnimating"]
 - !private ["PSs23CustomStringConvertible", "transform"]
+- !private ["PSs23CustomStringConvertible", "transitionWithView"]
 - ["PSs23CustomStringConvertible", "username"]
 - !private ["PSs23CustomStringConvertible", "view"]
 - ["PSs23CustomStringConvertible", "viewDidAppear"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "waringMessage"]
 - ["PSs23CustomStringConvertible", ""]
 - !private ["PSs9Equatable", "Always"]
 - !private ["PSs9Equatable", "CGAffineTransformMakeScale"]
@@ -178,10 +192,13 @@ depends-member:
 - !private ["PSs9Equatable", "CGPointMake"]
 - !private ["PSs9Equatable", "CGRectMake"]
 - !private ["PSs9Equatable", "CurveEaseInOut"]
+- !private ["PSs9Equatable", "CurveEaseOut"]
 - !private ["PSs9Equatable", "Element"]
+- !private ["PSs9Equatable", "TransitionFlipFromBottom"]
+- !private ["PSs9Equatable", "TransitionFlipFromTop"]
 - ["PSs9Equatable", "UIActivityIndicatorView"]
-- !private ["PSs9Equatable", "UIImage"]
-- !private ["PSs9Equatable", "UIImageView"]
+- ["PSs9Equatable", "UIImage"]
+- ["PSs9Equatable", "UIImageView"]
 - !private ["PSs9Equatable", "UIView"]
 - ["PSs9Equatable", "WhiteLarge"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
@@ -198,6 +215,7 @@ depends-member:
 - ["PSs9Equatable", "dot"]
 - !private ["PSs9Equatable", "frame"]
 - !private ["PSs9Equatable", "height"]
+- !private ["PSs9Equatable", "hidden"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "leftView"]
 - !private ["PSs9Equatable", "leftViewMode"]
@@ -212,10 +230,12 @@ depends-member:
 - ["PSs9Equatable", "spinner"]
 - !private ["PSs9Equatable", "startAnimating"]
 - !private ["PSs9Equatable", "transform"]
+- !private ["PSs9Equatable", "transitionWithView"]
 - ["PSs9Equatable", "username"]
 - !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidAppear"]
 - ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "waringMessage"]
 - !private ["PSs9Equatable", "width"]
 - !private ["PSs9Equatable", "x"]
 - !private ["PSs9Equatable", "y"]
@@ -227,8 +247,8 @@ depends-member:
 - !private ["PSs8Hashable", "CGPointMake"]
 - !private ["PSs8Hashable", "CGRectMake"]
 - ["PSs8Hashable", "UIActivityIndicatorView"]
-- !private ["PSs8Hashable", "UIImage"]
-- !private ["PSs8Hashable", "UIImageView"]
+- ["PSs8Hashable", "UIImage"]
+- ["PSs8Hashable", "UIImageView"]
 - !private ["PSs8Hashable", "UIView"]
 - ["PSs8Hashable", "WhiteLarge"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
@@ -244,6 +264,7 @@ depends-member:
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - ["PSs8Hashable", "dot"]
 - !private ["PSs8Hashable", "frame"]
+- !private ["PSs8Hashable", "hidden"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "leftView"]
 - !private ["PSs8Hashable", "leftViewMode"]
@@ -257,10 +278,12 @@ depends-member:
 - ["PSs8Hashable", "spinner"]
 - !private ["PSs8Hashable", "startAnimating"]
 - !private ["PSs8Hashable", "transform"]
+- !private ["PSs8Hashable", "transitionWithView"]
 - ["PSs8Hashable", "username"]
 - !private ["PSs8Hashable", "view"]
 - ["PSs8Hashable", "viewDidAppear"]
 - ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "waringMessage"]
 - ["PSs8Hashable", ""]
 - ["C15AnimationSample19LoginViewController", "AnyObject"]
 - ["C15AnimationSample19LoginViewController", "Bool"]
@@ -270,7 +293,7 @@ depends-member:
 - !private ["C15AnimationSample19LoginViewController", "CGRectMake"]
 - ["C15AnimationSample19LoginViewController", "UIActivityIndicatorView"]
 - ["C15AnimationSample19LoginViewController", "UIButton"]
-- !private ["C15AnimationSample19LoginViewController", "UIImage"]
+- ["C15AnimationSample19LoginViewController", "UIImage"]
 - ["C15AnimationSample19LoginViewController", "UIImageView"]
 - ["C15AnimationSample19LoginViewController", "UITextField"]
 - !private ["C15AnimationSample19LoginViewController", "UIView"]
@@ -295,13 +318,14 @@ depends-member:
 - !private ["C15AnimationSample19LoginViewController", "view"]
 - ["C15AnimationSample19LoginViewController", "viewDidAppear"]
 - ["C15AnimationSample19LoginViewController", "viewDidLoad"]
+- ["C15AnimationSample19LoginViewController", "waringMessage"]
 - !private ["PSo8NSCoding", "CGAffineTransformMakeScale"]
 - ["PSo8NSCoding", "CGPoint"]
 - !private ["PSo8NSCoding", "CGPointMake"]
 - !private ["PSo8NSCoding", "CGRectMake"]
 - ["PSo8NSCoding", "UIActivityIndicatorView"]
-- !private ["PSo8NSCoding", "UIImage"]
-- !private ["PSo8NSCoding", "UIImageView"]
+- ["PSo8NSCoding", "UIImage"]
+- ["PSo8NSCoding", "UIImageView"]
 - !private ["PSo8NSCoding", "UIView"]
 - !private ["PSo8NSCoding", "addSubview"]
 - !private ["PSo8NSCoding", "animateWithDuration"]
@@ -315,6 +339,7 @@ depends-member:
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "dot"]
 - !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "hidden"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "leftView"]
 - !private ["PSo8NSCoding", "leftViewMode"]
@@ -328,18 +353,20 @@ depends-member:
 - ["PSo8NSCoding", "spinner"]
 - !private ["PSo8NSCoding", "startAnimating"]
 - !private ["PSo8NSCoding", "transform"]
+- !private ["PSo8NSCoding", "transitionWithView"]
 - ["PSo8NSCoding", "username"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidAppear"]
 - ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "waringMessage"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo26NSExtensionRequestHandling", "CGAffineTransformMakeScale"]
 - ["PSo26NSExtensionRequestHandling", "CGPoint"]
 - !private ["PSo26NSExtensionRequestHandling", "CGPointMake"]
 - !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
 - ["PSo26NSExtensionRequestHandling", "UIActivityIndicatorView"]
-- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
-- !private ["PSo26NSExtensionRequestHandling", "UIImageView"]
+- ["PSo26NSExtensionRequestHandling", "UIImage"]
+- ["PSo26NSExtensionRequestHandling", "UIImageView"]
 - !private ["PSo26NSExtensionRequestHandling", "UIView"]
 - ["PSo26NSExtensionRequestHandling", "bubble1"]
 - ["PSo26NSExtensionRequestHandling", "bubble2"]
@@ -360,6 +387,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "waringMessage"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
@@ -369,7 +397,7 @@ depends-member:
 - !private ["CSo8NSObject", "CGRectMake"]
 - ["CSo8NSObject", "UIActivityIndicatorView"]
 - ["CSo8NSObject", "UIButton"]
-- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImage"]
 - ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UITextField"]
 - !private ["CSo8NSObject", "UIView"]
@@ -386,6 +414,7 @@ depends-member:
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "dot"]
 - !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "hidden"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "leftView"]
 - !private ["CSo8NSObject", "leftViewMode"]
@@ -399,17 +428,19 @@ depends-member:
 - ["CSo8NSObject", "spinner"]
 - !private ["CSo8NSObject", "startAnimating"]
 - !private ["CSo8NSObject", "transform"]
+- !private ["CSo8NSObject", "transitionWithView"]
 - ["CSo8NSObject", "username"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidAppear"]
 - ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "waringMessage"]
 - !private ["PSo16NSObjectProtocol", "CGAffineTransformMakeScale"]
 - ["PSo16NSObjectProtocol", "CGPoint"]
 - !private ["PSo16NSObjectProtocol", "CGPointMake"]
 - !private ["PSo16NSObjectProtocol", "CGRectMake"]
 - ["PSo16NSObjectProtocol", "UIActivityIndicatorView"]
-- !private ["PSo16NSObjectProtocol", "UIImage"]
-- !private ["PSo16NSObjectProtocol", "UIImageView"]
+- ["PSo16NSObjectProtocol", "UIImage"]
+- ["PSo16NSObjectProtocol", "UIImageView"]
 - !private ["PSo16NSObjectProtocol", "UIView"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
 - !private ["PSo16NSObjectProtocol", "animateWithDuration"]
@@ -423,6 +454,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "dot"]
 - !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "leftView"]
 - !private ["PSo16NSObjectProtocol", "leftViewMode"]
@@ -436,31 +468,44 @@ depends-member:
 - ["PSo16NSObjectProtocol", "spinner"]
 - !private ["PSo16NSObjectProtocol", "startAnimating"]
 - !private ["PSo16NSObjectProtocol", "transform"]
+- !private ["PSo16NSObjectProtocol", "transitionWithView"]
 - ["PSo16NSObjectProtocol", "username"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidAppear"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "waringMessage"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["PSo14NSSecureCoding", "init"]
+- ["PSo14NSSecureCoding", "init"]
 - !private ["PSs13OptionSetType", "CurveEaseInOut"]
+- !private ["PSs13OptionSetType", "CurveEaseOut"]
 - !private ["PSs13OptionSetType", "Element"]
+- !private ["PSs13OptionSetType", "TransitionFlipFromBottom"]
+- !private ["PSs13OptionSetType", "TransitionFlipFromTop"]
 - !private ["PSs16RawRepresentable", "Always"]
 - !private ["PSs16RawRepresentable", "CurveEaseInOut"]
+- !private ["PSs16RawRepresentable", "CurveEaseOut"]
 - !private ["PSs16RawRepresentable", "Element"]
+- !private ["PSs16RawRepresentable", "TransitionFlipFromBottom"]
+- !private ["PSs16RawRepresentable", "TransitionFlipFromTop"]
 - ["PSs16RawRepresentable", "WhiteLarge"]
 - !private ["PSs14SetAlgebraType", "CurveEaseInOut"]
+- !private ["PSs14SetAlgebraType", "CurveEaseOut"]
 - !private ["PSs14SetAlgebraType", "Element"]
+- !private ["PSs14SetAlgebraType", "TransitionFlipFromBottom"]
+- !private ["PSs14SetAlgebraType", "TransitionFlipFromTop"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "animateWithDuration"]
 - !private ["PSo29UIAccessibilityIdentification", "bounds"]
 - !private ["PSo29UIAccessibilityIdentification", "center"]
 - !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
 - ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "leftView"]
 - !private ["PSo29UIAccessibilityIdentification", "leftViewMode"]
 - !private ["PSo29UIAccessibilityIdentification", "removeFromSuperview"]
 - !private ["PSo29UIAccessibilityIdentification", "startAnimating"]
 - !private ["PSo29UIAccessibilityIdentification", "transform"]
+- !private ["PSo29UIAccessibilityIdentification", "transitionWithView"]
 - !private ["CSo23UIActivityIndicatorView", "frame"]
 - ["CSo23UIActivityIndicatorView", "init"]
 - !private ["CSo23UIActivityIndicatorView", "removeFromSuperview"]
@@ -471,19 +516,21 @@ depends-member:
 - !private ["PSo12UIAppearance", "bounds"]
 - !private ["PSo12UIAppearance", "center"]
 - !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "hidden"]
 - ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "leftView"]
 - !private ["PSo12UIAppearance", "leftViewMode"]
 - !private ["PSo12UIAppearance", "removeFromSuperview"]
 - !private ["PSo12UIAppearance", "startAnimating"]
 - !private ["PSo12UIAppearance", "transform"]
+- !private ["PSo12UIAppearance", "transitionWithView"]
 - !private ["PSo21UIAppearanceContainer", "CGAffineTransformMakeScale"]
 - ["PSo21UIAppearanceContainer", "CGPoint"]
 - !private ["PSo21UIAppearanceContainer", "CGPointMake"]
 - !private ["PSo21UIAppearanceContainer", "CGRectMake"]
 - ["PSo21UIAppearanceContainer", "UIActivityIndicatorView"]
-- !private ["PSo21UIAppearanceContainer", "UIImage"]
-- !private ["PSo21UIAppearanceContainer", "UIImageView"]
+- ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "UIImageView"]
 - !private ["PSo21UIAppearanceContainer", "UIView"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
 - !private ["PSo21UIAppearanceContainer", "animateWithDuration"]
@@ -497,6 +544,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "dot"]
 - !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "leftView"]
 - !private ["PSo21UIAppearanceContainer", "leftViewMode"]
@@ -510,10 +558,12 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "spinner"]
 - !private ["PSo21UIAppearanceContainer", "startAnimating"]
 - !private ["PSo21UIAppearanceContainer", "transform"]
+- !private ["PSo21UIAppearanceContainer", "transitionWithView"]
 - ["PSo21UIAppearanceContainer", "username"]
 - !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidAppear"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "waringMessage"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo8UIButton", "addSubview"]
 - !private ["CSo8UIButton", "center"]
@@ -522,8 +572,8 @@ depends-member:
 - !private ["PSo18UIContentContainer", "CGPointMake"]
 - !private ["PSo18UIContentContainer", "CGRectMake"]
 - ["PSo18UIContentContainer", "UIActivityIndicatorView"]
-- !private ["PSo18UIContentContainer", "UIImage"]
-- !private ["PSo18UIContentContainer", "UIImageView"]
+- ["PSo18UIContentContainer", "UIImage"]
+- ["PSo18UIContentContainer", "UIImageView"]
 - !private ["PSo18UIContentContainer", "UIView"]
 - ["PSo18UIContentContainer", "bubble1"]
 - ["PSo18UIContentContainer", "bubble2"]
@@ -544,6 +594,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidAppear"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "waringMessage"]
 - ["PSo18UIContentContainer", ""]
 - !private ["CSo9UIControl", "addSubview"]
 - !private ["CSo9UIControl", "center"]
@@ -555,30 +606,34 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "bounds"]
 - !private ["PSo17UICoordinateSpace", "center"]
 - !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "hidden"]
 - ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "leftView"]
 - !private ["PSo17UICoordinateSpace", "leftViewMode"]
 - !private ["PSo17UICoordinateSpace", "removeFromSuperview"]
 - !private ["PSo17UICoordinateSpace", "startAnimating"]
 - !private ["PSo17UICoordinateSpace", "transform"]
+- !private ["PSo17UICoordinateSpace", "transitionWithView"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
 - !private ["PSo13UIDynamicItem", "animateWithDuration"]
 - !private ["PSo13UIDynamicItem", "bounds"]
 - !private ["PSo13UIDynamicItem", "center"]
 - !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "hidden"]
 - ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "leftView"]
 - !private ["PSo13UIDynamicItem", "leftViewMode"]
 - !private ["PSo13UIDynamicItem", "removeFromSuperview"]
 - !private ["PSo13UIDynamicItem", "startAnimating"]
 - !private ["PSo13UIDynamicItem", "transform"]
+- !private ["PSo13UIDynamicItem", "transitionWithView"]
 - !private ["PSo18UIFocusEnvironment", "CGAffineTransformMakeScale"]
 - ["PSo18UIFocusEnvironment", "CGPoint"]
 - !private ["PSo18UIFocusEnvironment", "CGPointMake"]
 - !private ["PSo18UIFocusEnvironment", "CGRectMake"]
 - ["PSo18UIFocusEnvironment", "UIActivityIndicatorView"]
-- !private ["PSo18UIFocusEnvironment", "UIImage"]
-- !private ["PSo18UIFocusEnvironment", "UIImageView"]
+- ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "UIImageView"]
 - !private ["PSo18UIFocusEnvironment", "UIView"]
 - !private ["PSo18UIFocusEnvironment", "addSubview"]
 - !private ["PSo18UIFocusEnvironment", "animateWithDuration"]
@@ -592,6 +647,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "dot"]
 - !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "leftView"]
 - !private ["PSo18UIFocusEnvironment", "leftViewMode"]
@@ -605,15 +661,18 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "spinner"]
 - !private ["PSo18UIFocusEnvironment", "startAnimating"]
 - !private ["PSo18UIFocusEnvironment", "transform"]
+- !private ["PSo18UIFocusEnvironment", "transitionWithView"]
 - ["PSo18UIFocusEnvironment", "username"]
 - !private ["PSo18UIFocusEnvironment", "view"]
 - ["PSo18UIFocusEnvironment", "viewDidAppear"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "waringMessage"]
 - ["PSo18UIFocusEnvironment", ""]
-- !private ["CSo7UIImage", "init"]
+- ["CSo7UIImage", "init"]
 - !private ["CSo11UIImageView", "center"]
 - !private ["CSo11UIImageView", "frame"]
-- !private ["CSo11UIImageView", "init"]
+- !private ["CSo11UIImageView", "hidden"]
+- ["CSo11UIImageView", "init"]
 - !private ["CSo11UIImageView", "transform"]
 - !private ["PSo10UIKeyInput", "addSubview"]
 - !private ["PSo10UIKeyInput", "center"]
@@ -628,7 +687,7 @@ depends-member:
 - !private ["CSo11UIResponder", "CGRectMake"]
 - ["CSo11UIResponder", "UIActivityIndicatorView"]
 - ["CSo11UIResponder", "UIButton"]
-- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImage"]
 - ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UITextField"]
 - !private ["CSo11UIResponder", "UIView"]
@@ -645,6 +704,7 @@ depends-member:
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "dot"]
 - !private ["CSo11UIResponder", "frame"]
+- !private ["CSo11UIResponder", "hidden"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "leftView"]
 - !private ["CSo11UIResponder", "leftViewMode"]
@@ -658,17 +718,19 @@ depends-member:
 - ["CSo11UIResponder", "spinner"]
 - !private ["CSo11UIResponder", "startAnimating"]
 - !private ["CSo11UIResponder", "transform"]
+- !private ["CSo11UIResponder", "transitionWithView"]
 - ["CSo11UIResponder", "username"]
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidAppear"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "waringMessage"]
 - !private ["PSo16UIStateRestoring", "CGAffineTransformMakeScale"]
 - ["PSo16UIStateRestoring", "CGPoint"]
 - !private ["PSo16UIStateRestoring", "CGPointMake"]
 - !private ["PSo16UIStateRestoring", "CGRectMake"]
 - ["PSo16UIStateRestoring", "UIActivityIndicatorView"]
-- !private ["PSo16UIStateRestoring", "UIImage"]
-- !private ["PSo16UIStateRestoring", "UIImageView"]
+- ["PSo16UIStateRestoring", "UIImage"]
+- ["PSo16UIStateRestoring", "UIImageView"]
 - !private ["PSo16UIStateRestoring", "UIView"]
 - ["PSo16UIStateRestoring", "bubble1"]
 - ["PSo16UIStateRestoring", "bubble2"]
@@ -689,6 +751,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidAppear"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "waringMessage"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["CSo11UITextField", "addSubview"]
 - !private ["CSo11UITextField", "center"]
@@ -711,8 +774,8 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "CGPointMake"]
 - !private ["PSo18UITraitEnvironment", "CGRectMake"]
 - ["PSo18UITraitEnvironment", "UIActivityIndicatorView"]
-- !private ["PSo18UITraitEnvironment", "UIImage"]
-- !private ["PSo18UITraitEnvironment", "UIImageView"]
+- ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "UIImageView"]
 - !private ["PSo18UITraitEnvironment", "UIView"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
 - !private ["PSo18UITraitEnvironment", "animateWithDuration"]
@@ -726,6 +789,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "dot"]
 - !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "leftView"]
 - !private ["PSo18UITraitEnvironment", "leftViewMode"]
@@ -739,24 +803,31 @@ depends-member:
 - ["PSo18UITraitEnvironment", "spinner"]
 - !private ["PSo18UITraitEnvironment", "startAnimating"]
 - !private ["PSo18UITraitEnvironment", "transform"]
+- !private ["PSo18UITraitEnvironment", "transitionWithView"]
 - ["PSo18UITraitEnvironment", "username"]
 - !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidAppear"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "waringMessage"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "animateWithDuration"]
 - !private ["CSo6UIView", "bounds"]
 - !private ["CSo6UIView", "center"]
 - !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "hidden"]
 - ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "leftView"]
 - !private ["CSo6UIView", "leftViewMode"]
 - !private ["CSo6UIView", "removeFromSuperview"]
 - !private ["CSo6UIView", "startAnimating"]
 - !private ["CSo6UIView", "transform"]
+- !private ["CSo6UIView", "transitionWithView"]
 - !private ["VSC22UIViewAnimationOptions", "CurveEaseInOut"]
+- !private ["VSC22UIViewAnimationOptions", "CurveEaseOut"]
 - !private ["VSC22UIViewAnimationOptions", "Element"]
+- !private ["VSC22UIViewAnimationOptions", "TransitionFlipFromBottom"]
+- !private ["VSC22UIViewAnimationOptions", "TransitionFlipFromTop"]
 - ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "CGAffineTransformMakeScale"]
@@ -765,7 +836,7 @@ depends-member:
 - !private ["CSo16UIViewController", "CGRectMake"]
 - ["CSo16UIViewController", "UIActivityIndicatorView"]
 - ["CSo16UIViewController", "UIButton"]
-- !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImage"]
 - ["CSo16UIViewController", "UIImageView"]
 - ["CSo16UIViewController", "UITextField"]
 - !private ["CSo16UIViewController", "UIView"]
@@ -789,9 +860,10 @@ depends-member:
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidAppear"]
 - ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "waringMessage"]
 - ["CSo16UIViewController", ""]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs24_ImageLiteralConvertible", "init"]
+- ["PSs24_ImageLiteralConvertible", "init"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "addSubview"]
@@ -800,6 +872,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "center"]
 - !private ["PSs12_Reflectable", "frame"]
 - !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "hidden"]
 - ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "leftView"]
 - !private ["PSs12_Reflectable", "leftViewMode"]
@@ -807,6 +880,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "removeFromSuperview"]
 - !private ["PSs12_Reflectable", "startAnimating"]
 - !private ["PSs12_Reflectable", "transform"]
+- !private ["PSs12_Reflectable", "transitionWithView"]
 - !private ["PSs12_Reflectable", "width"]
 - !private ["PSs12_Reflectable", "x"]
 - !private ["PSs12_Reflectable", "y"]
@@ -829,7 +903,7 @@ depends-nominal:
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSo14NSSecureCoding"
+- "PSo14NSSecureCoding"
 - !private "PSs13OptionSetType"
 - "PSs16RawRepresentable"
 - !private "PSs14SetAlgebraType"
@@ -844,8 +918,8 @@ depends-nominal:
 - "PSo17UICoordinateSpace"
 - "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
-- !private "CSo7UIImage"
-- !private "CSo11UIImageView"
+- "CSo7UIImage"
+- "CSo11UIImageView"
 - !private "PSo10UIKeyInput"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
@@ -858,7 +932,7 @@ depends-nominal:
 - !private "VSC22UIViewAnimationOptions"
 - "CSo16UIViewController"
 - !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs24_ImageLiteralConvertible"
+- "PSs24_ImageLiteralConvertible"
 - !private "PSs21_ObjectiveCBridgeable"
 - "PSs12_Reflectable"
 depends-dynamic-lookup:
@@ -871,4 +945,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "235fb2359501df6b6a0ce1e63e85177c"
+interface-hash: "1041e41787c6206fb35a71e8e2d4a6cf"

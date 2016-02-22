@@ -157,6 +157,7 @@ SWIFT_CLASS("_TtC15AnimationSample19LoginViewController")
 @property (nonatomic, strong) IBOutlet UIButton * __null_unspecified login;
 @property (nonatomic, readonly, strong) UIActivityIndicatorView * __nonnull spinner;
 @property (nonatomic) CGPoint loginPostion;
+@property (nonatomic, readonly, strong) UIImageView * __nonnull waringMessage;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidAppear:(BOOL)animated;

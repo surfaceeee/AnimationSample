@@ -1,15 +1,15 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "7f80e228f3fd351a585e212617efe978"
-build_time: [509382814, 571814000]
+build_time: [509463199, 794940000]
 inputs:
+  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/SpringViewController.swift": [509382795, 0]
   "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/ColorViewController.swift": [509382795, 0]
   "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/PositionViewController.swift": [509382795, 0]
   "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/OpacityViewController.swift": [509382795, 0]
-  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/LoginViewController.swift": [509382795, 0]
-  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/ViewController.swift": [509382795, 0]
-  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/RepeatViewController.swift": [509382795, 0]
-  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/AppDelegate.swift": [509382795, 0]
-  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/ScaleViewController.swift": [509382795, 0]
   "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/RotationViewController.swift": [509382795, 0]
   "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/EasingViewController.swift": [509382795, 0]
-  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/SpringViewController.swift": [509382795, 0]
+  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/ViewController.swift": [509382795, 0]
+  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/LoginViewController.swift": [509463199, 0]
+  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/AppDelegate.swift": [509382795, 0]
+  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/ScaleViewController.swift": [509382795, 0]
+  "/Users/mc110/Documents/Git/MyDemo/Mooc/AnimationSample/AnimationPosition/AnimationPosition/RepeatViewController.swift": [509382795, 0]
