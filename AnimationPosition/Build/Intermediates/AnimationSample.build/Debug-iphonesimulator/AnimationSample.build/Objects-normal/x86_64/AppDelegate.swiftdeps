@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample11AppDelegate", ""]
 provides-dynamic-lookup:
+- "application"
 - "applicationDidEnterBackground"
 - "applicationWillEnterForeground"
-- "application"
 - "applicationWillTerminate"
 - "applicationDidBecomeActive"
-- "applicationWillResignActive"
 - "window"
+- "applicationWillResignActive"
 depends-top-level:
-- "UIWindow"
-- "NSObject"
-- "AnyObject"
-- "UIResponder"
 - !private "BooleanLiteralType"
+- "AnyObject"
 - "Bool"
+- "UIResponder"
+- "NSObject"
+- "UIWindow"
 - "AppDelegate"
 - "UIApplicationDelegate"
 - "UIApplication"

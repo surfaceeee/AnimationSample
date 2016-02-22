@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample20SpringViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "greenSquare"
-- "viewDidLoad"
 - "redSquare"
-- "viewDidAppear"
 - "blueSquare"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "viewDidAppear"
+- "greenSquare"
 depends-top-level:
-- "Bool"
-- !private "Array"
-- !private "Void"
 - "UIView"
+- !private "Void"
+- "Bool"
 - "SpringViewController"
 - "UIViewController"
 - !private "-"
+- !private "Array"
 depends-member:
 - !private ["PSs9AnyObject", "UIView"]
 - !private ["PSs9AnyObject", "animateWithDuration"]

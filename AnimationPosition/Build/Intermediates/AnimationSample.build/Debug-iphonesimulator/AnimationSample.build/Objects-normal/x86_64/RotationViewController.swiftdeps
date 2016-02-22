@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample22RotationViewController", ""]
 provides-dynamic-lookup:
-- "spin"
-- "viewDidAppear"
 - "didReceiveMemoryWarning"
 - "redSquare"
 - "viewDidLoad"
+- "spin"
+- "viewDidAppear"
 depends-top-level:
-- !private "CGAffineTransformRotate"
-- "Bool"
-- !private "CGFloat"
-- !private "M_PI"
-- "UIViewController"
-- "RotationViewController"
 - !private "Void"
+- !private "M_PI"
+- !private "CGFloat"
+- "RotationViewController"
+- "Bool"
 - "UIView"
+- !private "CGAffineTransformRotate"
+- "UIViewController"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGAffineTransformRotate"]

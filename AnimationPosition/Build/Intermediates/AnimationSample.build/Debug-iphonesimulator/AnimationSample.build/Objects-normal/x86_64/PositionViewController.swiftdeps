@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample22PositionViewController", ""]
 provides-dynamic-lookup:
-- "greySquare"
-- "didReceiveMemoryWarning"
-- "viewDidLoad"
-- "redSquare"
 - "greenSquare"
 - "viewDidAppear"
+- "didReceiveMemoryWarning"
+- "greySquare"
+- "viewDidLoad"
+- "redSquare"
 depends-top-level:
-- "PositionViewController"
-- "Bool"
-- !private "Void"
-- "UIView"
-- "UIViewController"
 - !private "-"
+- "PositionViewController"
+- !private "Void"
+- "UIViewController"
+- "Bool"
+- "UIView"
 depends-member:
 - !private ["PSs9AnyObject", "UIView"]
 - !private ["PSs9AnyObject", "animateWithDuration"]

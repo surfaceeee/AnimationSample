@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C15AnimationSample20EasingViewController", ""]
 provides-dynamic-lookup:
-- "blackSquare"
-- "blueSquare"
-- "greenSquare"
-- "redSquare"
-- "viewDidAppear"
 - "didReceiveMemoryWarning"
+- "blackSquare"
+- "redSquare"
 - "viewDidLoad"
+- "greenSquare"
+- "blueSquare"
+- "viewDidAppear"
 depends-top-level:
-- "UIView"
-- "UIViewController"
-- !private "-"
-- "EasingViewController"
 - "Bool"
+- "EasingViewController"
+- "UIViewController"
 - !private "Void"
+- "UIView"
+- !private "-"
 depends-member:
 - !private ["PSs9AnyObject", "UIView"]
 - !private ["PSs9AnyObject", "animateWithDuration"]

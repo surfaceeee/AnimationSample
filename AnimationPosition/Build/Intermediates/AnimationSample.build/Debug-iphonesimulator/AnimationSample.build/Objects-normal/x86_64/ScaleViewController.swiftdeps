@@ -12,10 +12,10 @@ provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
 depends-top-level:
 - !private "CGAffineTransformMakeScale"
-- "ScaleViewController"
 - !private "Void"
 - "UIView"
 - "Bool"
+- "ScaleViewController"
 - "UIViewController"
 depends-member:
 - !private ["PSs9AnyObject", "CGAffineTransformMakeScale"]
